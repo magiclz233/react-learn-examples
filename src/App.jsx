@@ -4,26 +4,28 @@
 
 // import Greeting from "./components/example2/Greeting";
 // import ProductInfo from "./components/example2/ProductInfo";
-import ProductList from "./components/example3/ProductList";
-import User from "./components/example4/User";
-import UserList from "./components/example3/UserList";
+// import ProductList from "./components/example3/ProductList";
+// import User from "./components/example4/User";
+// import UserList from "./components/example3/UserList";
 import Person from "./components/example4/Person";
 import Product from "./components/example4/Product";
 
 
 const App = () => {
-  return <>
-  {/* <Header/>
+  return (
+    <>
+      {/* <Header/>
   <MainContent/>
   <Footer/> */}
-  {/* <Greeting/>
+      {/* <Greeting/>
   <ProductInfo/> */}
-  {/* <UserList/>
+      {/* <UserList/>
   <ProductList/> */}
-  <User/>
-  <Person name = "magic" age = {20}/>
-  <Product name = "西瓜" age = {15}/>
-  </>
+      {/* <User /> */}
+      <Person name="magic" age={20} />
+      <Product name="西瓜" age={15} />
+    </>
+  );
 }
 
 export default App;
