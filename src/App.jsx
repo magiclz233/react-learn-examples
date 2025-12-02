@@ -18,6 +18,8 @@ import StyledCard from "./components/example6/StyledCard";
 import ProfileCard from "./components/example6/ProfileCard";
 import IconComponent from "./components/example6/IconComponent";
 import OnClick from "./components/example6/OnClick";
+import BaseCount from "./components/example7/BaseCount";
+import UpdateArrays from "./components/example7/UpdateArrays";
 
 const App = () => {
   return (
@@ -44,6 +46,8 @@ const App = () => {
       <ProfileCard />
       <IconComponent />
       <OnClick />
+      <BaseCount/>
+      <UpdateArrays/>
     </>
   );
 }
