@@ -14,7 +14,9 @@ import Greeting from "./components/example5/Greeting";
 import PassWord from "./components/example5/PassWord";
 import UserStatus from "./components/example5/UserStatus";
 import Weather from "./components/example5/Weather";
-
+import StyledCard from "./components/example6/StyledCard";
+import ProfileCard from "./components/example6/ProfileCard";
+import IconComponent from "./components/example6/IconComponent";
 
 const App = () => {
   return (
@@ -37,6 +39,9 @@ const App = () => {
       <Greeting timeOfDay = {"evening"} />
       <PassWord isValid={true} />
       <PassWord isValid={false} />
+      <StyledCard />
+      <ProfileCard />
+      <IconComponent />
     </>
   );
 }
