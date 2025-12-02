@@ -10,6 +10,9 @@
 import Card from "./components/example4/Card";
 import Person from "./components/example4/Person";
 import Product from "./components/example4/Product";
+import Greeting from "./components/example5/Greeting";
+import PassWord from "./components/example5/PassWord";
+import UserStatus from "./components/example5/UserStatus";
 import Weather from "./components/example5/Weather";
 
 
@@ -28,6 +31,12 @@ const App = () => {
       <Product name="西瓜" age={15} />
       <Card/>
       <Weather temp={30} />
+      <UserStatus loggedIn = {true} isAdmin = {false}/>
+      <Greeting timeOfDay = {"morning"} />  
+      <Greeting timeOfDay = {"afternoon"} />
+      <Greeting timeOfDay = {"evening"} />
+      <PassWord isValid={true} />
+      <PassWord isValid={false} />
     </>
   );
 }
