@@ -17,6 +17,7 @@ import Weather from "./components/example5/Weather";
 import StyledCard from "./components/example6/StyledCard";
 import ProfileCard from "./components/example6/ProfileCard";
 import IconComponent from "./components/example6/IconComponent";
+import OnClick from "./components/example6/OnClick";
 
 const App = () => {
   return (
@@ -42,6 +43,7 @@ const App = () => {
       <StyledCard />
       <ProfileCard />
       <IconComponent />
+      <OnClick />
     </>
   );
 }
