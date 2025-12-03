@@ -7,19 +7,21 @@
 // import ProductList from "./components/example3/ProductList";
 // import User from "./components/example4/User";
 // import UserList from "./components/example3/UserList";
-import Card from "./components/example4/Card";
-import Person from "./components/example4/Person";
-import Product from "./components/example4/Product";
-import Greeting from "./components/example5/Greeting";
-import PassWord from "./components/example5/PassWord";
-import UserStatus from "./components/example5/UserStatus";
-import Weather from "./components/example5/Weather";
-import StyledCard from "./components/example6/StyledCard";
-import ProfileCard from "./components/example6/ProfileCard";
-import IconComponent from "./components/example6/IconComponent";
-import OnClick from "./components/example6/OnClick";
-import BaseCount from "./components/example7/BaseCount";
-import UpdateArrays from "./components/example7/UpdateArrays";
+// import Card from "./components/example4/Card";
+// import Person from "./components/example4/Person";
+// import Product from "./components/example4/Product";
+// import Greeting from "./components/example5/Greeting";
+// import PassWord from "./components/example5/PassWord";
+// import UserStatus from "./components/example5/UserStatus";
+// import Weather from "./components/example5/Weather";
+// import StyledCard from "./components/example6/StyledCard";
+// import ProfileCard from "./components/example6/ProfileCard";
+// import IconComponent from "./components/example6/IconComponent";
+// import OnClick from "./components/example6/OnClick";
+// import BaseCount from "./components/example7/BaseCount";
+// import UpdateArrays from "./components/example7/UpdateArrays";
+import EventDemo from "./components/example7/EventDemo";
+import TodoList from "./components/example7/TodoList";
 
 const App = () => {
   return (
@@ -32,7 +34,7 @@ const App = () => {
       {/* <UserList/>
   <ProductList/> */}
       {/* <User /> */}
-      <Person name="magic" age={20} />
+      {/* <Person name="magic" age={20} />
       <Product name="西瓜" age={15} />
       <Card/>
       <Weather temp={30} />
@@ -46,8 +48,10 @@ const App = () => {
       <ProfileCard />
       <IconComponent />
       <OnClick />
-      <BaseCount/>
-      <UpdateArrays/>
+      <BaseCount/> */}
+      <EventDemo/>
+      {/* <UpdateArrays/> */}
+      <TodoList/>
     </>
   );
 }
