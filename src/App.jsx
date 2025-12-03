@@ -25,6 +25,8 @@ import TodoList from "./components/example7/TodoList";
 import Profile from "./components/example7/Profile";
 import ShoppingList from "./components/example7/ShoppingList";
 import UpdateObjectArrays from "./components/example7/UpdateObjectArrays";
+import ShardingStatus from "./components/example7/ShardingStatus";
+
 
 const App = () => {
   return (
@@ -52,12 +54,13 @@ const App = () => {
       <IconComponent />
       <OnClick />
       <BaseCount/> */}
-      <EventDemo/>
+      {/* <EventDemo/> */}
       {/* <UpdateArrays/> */}
-      <TodoList/>
+      {/* <TodoList/>
       <Profile/>
       <ShoppingList/>
-      <UpdateObjectArrays/>
+      <UpdateObjectArrays/> */}
+      <ShardingStatus/>
     </>
   );
 }
