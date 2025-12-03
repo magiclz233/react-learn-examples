@@ -23,6 +23,7 @@
 import EventDemo from "./components/example7/EventDemo";
 import TodoList from "./components/example7/TodoList";
 import Profile from "./components/example7/Profile";
+import ShoppingList from "./components/example7/ShoppingList";
 
 const App = () => {
   return (
@@ -54,6 +55,7 @@ const App = () => {
       {/* <UpdateArrays/> */}
       <TodoList/>
       <Profile/>
+      <ShoppingList/>
     </>
   );
 }
