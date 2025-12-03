@@ -24,6 +24,7 @@ import EventDemo from "./components/example7/EventDemo";
 import TodoList from "./components/example7/TodoList";
 import Profile from "./components/example7/Profile";
 import ShoppingList from "./components/example7/ShoppingList";
+import UpdateObjectArrays from "./components/example7/UpdateObjectArrays";
 
 const App = () => {
   return (
@@ -56,6 +57,7 @@ const App = () => {
       <TodoList/>
       <Profile/>
       <ShoppingList/>
+      <UpdateObjectArrays/>
     </>
   );
 }
