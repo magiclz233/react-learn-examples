@@ -26,6 +26,7 @@ import Profile from "./components/example7/Profile";
 import ShoppingList from "./components/example7/ShoppingList";
 import UpdateObjectArrays from "./components/example7/UpdateObjectArrays";
 import ShardingStatus from "./components/example7/ShardingStatus";
+import Local from "./components/example7/Local";
 
 
 const App = () => {
@@ -61,6 +62,7 @@ const App = () => {
       <ShoppingList/>
       <UpdateObjectArrays/> */}
       <ShardingStatus/>
+      <Local/>
     </>
   );
 }
