@@ -20,13 +20,16 @@
 // import OnClick from "./components/example6/OnClick";
 // import BaseCount from "./components/example7/BaseCount";
 // import UpdateArrays from "./components/example7/UpdateArrays";
-import EventDemo from "./components/example7/EventDemo";
-import TodoList from "./components/example7/TodoList";
-import Profile from "./components/example7/Profile";
-import ShoppingList from "./components/example7/ShoppingList";
-import UpdateObjectArrays from "./components/example7/UpdateObjectArrays";
-import ShardingStatus from "./components/example7/ShardingStatus";
-import Local from "./components/example7/Local";
+// import EventDemo from "./components/example7/EventDemo";
+// import TodoList from "./components/example7/TodoList";
+// import Profile from "./components/example7/Profile";
+// import ShoppingList from "./components/example7/ShoppingList";
+// import UpdateObjectArrays from "./components/example7/UpdateObjectArrays";
+// import ShardingStatus from "./components/example7/ShardingStatus";
+// import Local from "./components/example7/Local";
+// import Switcher from "./components/example7/Switcher";
+import CopyInput from "./components/example7/CopyInput";
+
 
 
 const App = () => {
@@ -61,8 +64,10 @@ const App = () => {
       <Profile/>
       <ShoppingList/>
       <UpdateObjectArrays/> */}
-      <ShardingStatus/>
+      {/* <ShardingStatus/>
       <Local/>
+      <Switcher/> */}
+      <CopyInput/>
     </>
   );
 }
