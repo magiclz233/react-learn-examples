@@ -29,6 +29,7 @@
 // import Local from "./components/example7/Local";
 // import Switcher from "./components/example7/Switcher";
 import CopyInput from "./components/example7/CopyInput";
+import UseReducerTest from "./components/example8-hook/UseReducerTest";
 
 
 
@@ -68,6 +69,7 @@ const App = () => {
       <Local/>
       <Switcher/> */}
       <CopyInput/>
+      <UseReducerTest/>
     </>
   );
 }
