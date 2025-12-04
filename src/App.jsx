@@ -30,6 +30,7 @@
 // import Switcher from "./components/example7/Switcher";
 import CopyInput from "./components/example7/CopyInput";
 import Counter from "./components/example8-hook/Counter";
+import UseContextTest from "./components/example8-hook/UseContextTest";
 import UseReducerTest from "./components/example8-hook/UseReducerTest";
 
 
@@ -72,6 +73,7 @@ const App = () => {
       <CopyInput/>
       <UseReducerTest/>
       <Counter/>
+      <UseContextTest/>
     </>
   );
 }
