@@ -10,7 +10,6 @@
 // import Card from "./components/example4/Card";
 // import Person from "./components/example4/Person";
 // import Product from "./components/example4/Product";
-// import Greeting from "./components/example5/Greeting";
 // import PassWord from "./components/example5/PassWord";
 // import UserStatus from "./components/example5/UserStatus";
 // import Weather from "./components/example5/Weather";
@@ -23,15 +22,15 @@
 // import EventDemo from "./components/example7/EventDemo";
 // import TodoList from "./components/example7/TodoList";
 // import Profile from "./components/example7/Profile";
-// import ShoppingList from "./components/example7/ShoppingList";
-// import UpdateObjectArrays from "./components/example7/UpdateObjectArrays";
-// import ShardingStatus from "./components/example7/ShardingStatus";
-// import Local from "./components/example7/Local";
-// import Switcher from "./components/example7/Switcher";
-import CopyInput from "./components/example7/CopyInput";
-import Counter from "./components/example8-hook/Counter";
-import UseContextTest from "./components/example8-hook/UseContextTest";
-import UseReducerTest from "./components/example8-hook/UseReducerTest";
+// import ShoppingList from "./components/base-example/example7/ShoppingList";
+// import UpdateObjectArrays from "./components/base-example/example7/UpdateObjectArrays";
+// import ShardingStatus from "./components/base-example/example7/ShardingStatus";
+// import Local from "./components/base-example/example7/Local";
+// import Switcher from "./components/base-example/example7/Switcher";
+import CopyInput from "./components/base-example/example7/CopyInput";
+import Counter from "./components/BeginnersProjects/01.Counter/Counter";
+import UseContextTest from "./components/base-example/example8-hook/UseContextTest";
+import UseReducerTest from "./components/base-example/example8-hook/UseReducerTest";
 
 
 
@@ -70,10 +69,11 @@ const App = () => {
       {/* <ShardingStatus/>
       <Local/>
       <Switcher/> */}
-      <CopyInput/>
+      {/* <CopyInput/>
       <UseReducerTest/>
       <Counter/>
-      <UseContextTest/>
+      <UseContextTest/> */}
+      <Counter/>
     </>
   );
 }
