@@ -35,6 +35,7 @@ import Todo from "./components/BeginnersProjects/02.Todo/Todo";
 import Api from "./components/BeginnersProjects/03.Api/Api";
 import Calculator from "./components/BeginnersProjects/04.Calculator/Main";
 import ToggleBackgroundColor from "./components/BeginnersProjects/05.ColorToggler/ToggleBackgroundColor";
+import HiddenSearchBar from "./components/BeginnersProjects/06.SearchIconProject/HiddenSearchBar";
 
 
 
@@ -81,7 +82,8 @@ const App = () => {
       {/* <Todo/> */}
       {/* <Api/> */}
       {/* <Calculator/> */}
-      <ToggleBackgroundColor/>
+      {/* <ToggleBackgroundColor/> */}
+      <HiddenSearchBar/>
     </>
   );
 }
