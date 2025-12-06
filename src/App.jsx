@@ -36,6 +36,8 @@ import Api from "./components/BeginnersProjects/03.Api/Api";
 import Calculator from "./components/BeginnersProjects/04.Calculator/Main";
 import ToggleBackgroundColor from "./components/BeginnersProjects/05.ColorToggler/ToggleBackgroundColor";
 import HiddenSearchBar from "./components/BeginnersProjects/06.SearchIconProject/HiddenSearchBar";
+import FormValidation from "./components/BeginnersProjects/09.FormValidation/FromValidation";
+import Accordion from "./components/BeginnersProjects/08.Accordions/Accordion";
 
 
 
@@ -83,7 +85,9 @@ const App = () => {
       {/* <Api/> */}
       {/* <Calculator/> */}
       {/* <ToggleBackgroundColor/> */}
-      <HiddenSearchBar/>
+      {/* <HiddenSearchBar/> */}
+      {/* <FormValidation/> */}
+      <Accordion/>
     </>
   );
 }
