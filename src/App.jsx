@@ -34,6 +34,7 @@ import UseReducerTest from "./components/base-example/example8-hook/UseReducerTe
 import Todo from "./components/BeginnersProjects/02.Todo/Todo";
 import Api from "./components/BeginnersProjects/03.Api/Api";
 import Calculator from "./components/BeginnersProjects/04.Calculator/Main";
+import ToggleBackgroundColor from "./components/BeginnersProjects/05.ColorToggler/ToggleBackgroundColor";
 
 
 
@@ -79,7 +80,8 @@ const App = () => {
       {/* <Counter/> */}
       {/* <Todo/> */}
       {/* <Api/> */}
-      <Calculator/>
+      {/* <Calculator/> */}
+      <ToggleBackgroundColor/>
     </>
   );
 }
