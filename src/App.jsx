@@ -32,6 +32,7 @@ import Counter from "./components/BeginnersProjects/01.Counter/Counter";
 import UseContextTest from "./components/base-example/example8-hook/UseContextTest";
 import UseReducerTest from "./components/base-example/example8-hook/UseReducerTest";
 import Todo from "./components/BeginnersProjects/02.Todo/Todo";
+import Api from "./components/BeginnersProjects/03.Api/Api";
 
 
 
@@ -75,7 +76,8 @@ const App = () => {
       <Counter/>
       <UseContextTest/> */}
       {/* <Counter/> */}
-      <Todo/>
+      {/* <Todo/> */}
+      <Api/>
     </>
   );
 }
