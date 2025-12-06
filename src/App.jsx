@@ -33,6 +33,7 @@ import UseContextTest from "./components/base-example/example8-hook/UseContextTe
 import UseReducerTest from "./components/base-example/example8-hook/UseReducerTest";
 import Todo from "./components/BeginnersProjects/02.Todo/Todo";
 import Api from "./components/BeginnersProjects/03.Api/Api";
+import Calculator from "./components/BeginnersProjects/04.Calculator/Main";
 
 
 
@@ -77,7 +78,8 @@ const App = () => {
       <UseContextTest/> */}
       {/* <Counter/> */}
       {/* <Todo/> */}
-      <Api/>
+      {/* <Api/> */}
+      <Calculator/>
     </>
   );
 }
