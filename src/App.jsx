@@ -31,6 +31,7 @@ import CopyInput from "./components/base-example/example7/CopyInput";
 import Counter from "./components/BeginnersProjects/01.Counter/Counter";
 import UseContextTest from "./components/base-example/example8-hook/UseContextTest";
 import UseReducerTest from "./components/base-example/example8-hook/UseReducerTest";
+import Todo from "./components/BeginnersProjects/02.Todo/Todo";
 
 
 
@@ -73,7 +74,8 @@ const App = () => {
       <UseReducerTest/>
       <Counter/>
       <UseContextTest/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <Todo/>
     </>
   );
 }
