@@ -20,6 +20,7 @@ body {
 }
 
 .accordion-card {
+  height: 200px;
   margin: 20px;
   padding: 20px;
   background: rgb(73, 73, 73);
